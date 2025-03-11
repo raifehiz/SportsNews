@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #D40A17;
+    background: radial-gradient(circle, black, darkred, red);;
 }
 
 .container{
