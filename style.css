@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Grande';
+}
+
+body{
+    background-color: #D40A17;
+}
+
+.container{
+    padding: 20px;
+    /* border: 2px solid yellow; */
+    margin: 20px;
+}
+
+header{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.main *{
+    /* border: 1px solid black; */
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* gap: 20px; */
+}
+
+.foto{
+    height: 450px;
+    width: 300px;
+    background-color: #FFFFFF;
+    border: 3px solid black;
+}
+
+.foto iframe{
+    width: 100vw;
+    height: 70%;
+} 
+
+.foto h2{
+    width: 100vw;
+}
+
+.genis{
+
+}
+
+.genis1{
+    grid-area: 1/1/2/3;
+}
